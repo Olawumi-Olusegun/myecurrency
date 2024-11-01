@@ -11,7 +11,10 @@ export default {
         secondary: "##FC5959",
         lightGray: "#21384299",
         accent: "#FBF9F2"
-      }
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

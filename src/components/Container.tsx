@@ -3,7 +3,7 @@ import cn from "./../../utils/cn"
 
 const Container: FC<{ children: ReactNode; className: string; }> = ({ children, className }) => {
     return (
-        <div className={cn("max-w-[#1441px]")}>
+        <div className={cn("max-w-[#1441px]", className)}>
             {children}
         </div>
     )
